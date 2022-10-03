@@ -1,6 +1,17 @@
 # Grafana Proxies
 ## Datadog to Prometheus
+
+### Build
+```
+docker built -t datadog-proxy .
+```
+
 ### Usage
+```
+docker run --rm -ti datadog-proxy {options}
+```
+
+#### Options
 ```
   -api.intake-timeout duration
         Sets /intake timeout, by default 5 seconds (default 5s)
