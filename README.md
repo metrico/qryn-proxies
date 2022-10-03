@@ -4,6 +4,6 @@
 Collection of various 3rd party alternative input methods compatible with [qryn](https://qryn.dev)
 
 ### Grafana Proxies
-Grafana Proxies to help ingest metrics and translate them into _Prometheus_ format
+[Grafana Proxies](https://github.com/grafana/mimir-proxies) help ingest metrics and translate them into _Prometheus_ format
 - [Datadog](https://github.com/metrico/qryn-proxies/tree/main/datadog-proxy-writes)
 - [Graphite](https://github.com/metrico/qryn-proxies/tree/main/graphite-proxy-writes)
