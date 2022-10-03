@@ -1,6 +1,17 @@
 # Grafana Proxies
-## Datadog to Prometheus
+## Graphite to Prometheus
+
+### Build
+```
+docker built -t graphite-proxy .
+```
+
 ### Usage
+```
+docker run --rm -ti graphite-proxy {options}
+```
+
+#### Options
 ```
   -auth.enable=false \
   -server.http-listen-address 127.0.0.1 \
